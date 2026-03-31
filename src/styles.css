@@ -8,13 +8,15 @@ body {
 }
 
 h1 {
-    margin: 50px;;
+    margin: 50px;
+    ;
 }
 
 
 textarea {
     font-family: inherit;
-    min-height: 200px;
+    min-height: 125px;
+    resize: none;
 }
 
 label {
@@ -31,7 +33,7 @@ label {
 .ticket-list {
     margin-bottom: 200px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
 
 .ticket-item {
@@ -122,5 +124,4 @@ select {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-
 }
